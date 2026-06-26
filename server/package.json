@@ -1,0 +1,30 @@
+{
+  "name": "clg-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@clerk/backend": "^3.2.2",
+    "@clerk/express": "^2.0.6",
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.3.2",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14",
+    "react-router-dom": "^7.13.1",
+    "stripe": "^21.0.0",
+    "uuid": "^13.0.0"
+  }
+}

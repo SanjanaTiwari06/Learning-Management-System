@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# VS Code Local History
+.history/
+
+# OS files
+.DS_Store
+Thumbs.dbtype 
