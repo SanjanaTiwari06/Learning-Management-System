@@ -23,7 +23,7 @@ const port = process.env.PORT || 4000;
 
 // middleware 
 app.use(cors({
-  origin: [ "https://learning-management-system-awyy.vercel.app"],
+  origin: [ "https://learning-management-system-awyy.vercel.app",  "https://learning-management-system-daxz.vercel.app",],
   credentials: true,
 }));
 app.use(express.json());
