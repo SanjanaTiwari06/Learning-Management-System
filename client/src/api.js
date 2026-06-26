@@ -1,7 +1,7 @@
 const API = import.meta.env.VITE_API_URL;
 
 export const getCourses = async () => {
-  const res = await fetch("https://learning-management-system-hv7g.onrender.com/api/course");
+ const res = await fetch(`${API}/api/course`);
   return res.json();
 };
 
