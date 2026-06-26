@@ -10,7 +10,7 @@ import { ArrowRight, Star, User } from "lucide-react";
 import { Slide, toast, ToastContainer } from "react-toastify";
 import { useUser, useAuth } from "@clerk/clerk-react";
 
-const API_BASE = "https://learning-management-system-hv7g.onrender.com/"
+const API_BASE = "https://learning-management-system-hv7g.onrender.com"
 
 const HomeCourses = () => {
 
