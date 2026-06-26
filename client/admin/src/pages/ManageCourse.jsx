@@ -1,10 +1,11 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 const ManageCourse = () => {
     const navigate = useNavigate();
-const API = "http://localhost:4000/api/course";
+const API = "https://learning-management-system-hv7g.onrender.com/api/course";
     const [courses, setCourses] = useState([]);
 
     const fetchCourses = async () => {

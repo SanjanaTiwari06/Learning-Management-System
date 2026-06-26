@@ -76,7 +76,7 @@ const AddCourse = () => {
       }
 
       // API CALL
-      const res = await fetch("http://localhost:4000/api/course", {
+      const res = await fetch("https://learning-management-system-hv7g.onrender.com/api/course", {
         method: "POST",
         body: formData,
       });

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { useAuth } from '@clerk/clerk-react'
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const API_BASE = "http://localhost:4000"
+const API_BASE = "https://learning-management-system-hv7g.onrender.com"
 
 const VerifyPaymentPage = () => {
     const location = useLocation();

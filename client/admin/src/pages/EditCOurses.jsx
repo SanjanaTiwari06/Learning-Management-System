@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const API = "http://localhost:4000/api/course";
+const API = "https://learning-management-system-hv7g.onrender.com/api/course";
 
 const EditCourse = () => {
   const { id } = useParams();

@@ -5,7 +5,7 @@ import { User, PlayCircle } from "lucide-react";
 import { myCoursesStyles, myCoursesCustomStyles } from "../assets/dummyStyles";
 import { toast, ToastContainer, Slide } from "react-toastify";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://learning-management-system-hv7g.onrender.com/";
 
 function MyCourses() {
   const navigate = useNavigate();

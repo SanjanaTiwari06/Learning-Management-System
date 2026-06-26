@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000/api/course";
+const BASE_URL = "https://learning-management-system-hv7g.onrender.com/api/course";
 
 // GET all courses
 export const getCourses = async () => {
