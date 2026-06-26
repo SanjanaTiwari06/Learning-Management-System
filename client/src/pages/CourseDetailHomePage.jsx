@@ -26,7 +26,7 @@ import {
 
 import { useUser, useAuth } from "@clerk/clerk-react";
 
-const API_BASE = "https://learning-management-system-hv7g.onrender.com/";
+const API_BASE = "https://learning-management-system-hv7g.onrender.com";
 
 const fmtMinutes = (mins) => {
   const h = Math.floor((mins || 0) / 60);
