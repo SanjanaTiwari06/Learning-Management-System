@@ -19,7 +19,7 @@ import CourseDetailPage from "./pages/CourseDetailPage";
 
 import ContactUsPage from "./pages/ContactUsPage";
 import MyCoursesPage from "./pages/MyCoursesPage";
-import AddCourse from "../admin/src/pages/addCourses";
+import AddCourse from "../../admin/src/pages/addCourses";
 import verifyPaymentPage from "../verifyPaymentPage";
 import VerifyPaymentPage from "../verifyPaymentPage";
 import MyCourses from "./components/MyCourses";
